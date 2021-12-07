@@ -8,7 +8,7 @@ import Html.Attributes
 
 
 -- MAIN
-
+-- Главный шаблон
 
 main : Program () Model Msg
 main =
@@ -22,7 +22,7 @@ main =
 
 
 -- DATA
-
+-- Шаблон элемента башенки
 
 type alias Disk =
     { tower : Int
@@ -122,7 +122,6 @@ subscriptions model =
 
 
 -- UPDATE
-
 
 type Msg
     = MyMsg DnDList.Msg
